@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <form action="">
+                <form action="">
                         <button class="btn1"><a href="iniciarsesion.html">Iniciar Sesión</a></button>
                     </form>
                 </div>
@@ -94,7 +94,7 @@
     <div class="container resgistrarse">
         <div class="row">
             <div class="col-md-5">
-                <img class="chico" src="<?php the_field('imagen_5'); ?>" width="400px" alt="">
+                <img class="chico" src="<?php $imagen_1 = get_field('imagen_5'); ?>" width="400px" alt="">
             </div>
             <div class="col-md-7">
                 <h1 class="frase5"><?php the_field("tercer_enunciado");?></h1>
@@ -114,8 +114,8 @@
                     <div class="col-sm-6">
                         <div class="row">
                             <div class="col-4">
-                                <a href=" <?php the_field('https://www.youtube.com/watch?v=xRWqAbKAZrg');?>"><img class="Sola" src="<?php the_field('imagen_7'); ?>" width="150px" alt=""></a> 
-                                <a href="https://www.youtube.com/watch?v=OX-us7PEfkc"><img class="ML" src="<?php the_field('imagen_8'); ?>" width="150px" alt=""></a> 
+                                <a href=" <?php the_field('enlace_6');?>"><img class="Sola" src="<?php the_field('imagen_6'); ?>" width="150px" alt=""></a> 
+                                <a href="<?php the_field('enlace_7');?>"><img class="ML" src="<?php the_field('imagen_7'); ?>" width="150px" alt=""></a> 
                             </div>
                             <div class="col-8">
                                 <div class="tiago">
@@ -161,7 +161,7 @@
                     <div class="col-sm-6">
                         <div class="row">
                             <div class="col-4">
-                                <a href="https://www.youtube.com/watch?v=wfWkmURBNv8"><img class="farsanta" src="<?php the_field('imagen_9'); ?>" width="150px" alt=""></a> 
+                                <a href="<?php the_field('enlace_7')?>;"><img class="farsanta" src="<?php the_field('imagen_7'); ?>" width="150px" alt=""></a> 
                                 <a href="https://www.youtube.com/watch?v=KXw8CRapg7k"><img class="queen" src="<?php the_field('imagen_10'); ?>" width="150px" alt=""></a> 
                             </div>
                             <div class="col-8">
